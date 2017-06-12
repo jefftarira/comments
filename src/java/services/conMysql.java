@@ -7,11 +7,11 @@ import java.sql.SQLException;
 
 public class conMysql {
 
-  private String server = "localhost";
+  private String server = "dbcomments.ch8muwbdxuhz.us-east-1.rds.amazonaws.com";
   private String dbname = "comments";
   private String port = "3306";
   private String user = "user";
-  private String passw = "123456";
+  private String passw = "12345678";
   private Connection con;
 
   public conMysql() {

@@ -42,6 +42,7 @@ public class list extends HttpServlet {
       JSONObject obj = new JSONObject();
       obj.put("error", false);
       obj.put("message", " ");
+      obj.put("total", aComments.size());
 
       JSONArray aC = new JSONArray();
       for (int i = 0; i < aComments.size(); i++) {
